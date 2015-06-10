@@ -442,7 +442,7 @@ public class MusicURILibraryDemo
 	{
 		System.out.println("Starting MusicURI Demo: Add a MusicURI reference to a local MusicURI Data Source");
 		
-		String databasePath = databaseFile.getParent() + "\\";
+		String databasePath = databaseFile.getParent() + File.separator;
 		String databaseFileName = databaseFile.getName();
 		MusicURIDatabase db = new MusicURIDatabase (databasePath, databaseFileName);
 		
